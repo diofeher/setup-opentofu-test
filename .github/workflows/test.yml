@@ -15,7 +15,7 @@ jobs:
         ls -la .opentofu-version
         cat .opentofu-version
     - name: Install OpenTofu with Version from .opentofu-version
-      uses: opentofu/setup-opentofu@v1
+      uses: opentofu/setup-opentofu@v2
       with:
         tofu_version_file: .opentofu-version
       env:
